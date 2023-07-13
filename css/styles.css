@@ -1,0 +1,511 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-text-primary #dde1f3);
+}
+
+/* root colors */
+
+:root {
+  --color-primary: #3a506b;
+  --color-primary-dark: #1e2c55;
+  --color-secondary-light: rgba(255, 255, 255, 0.5);
+  --color-text-primary: #dde1f3;
+  --color-text-secondary: #d69191;
+}
+
+/* section navbar */
+
+.header {
+  background-color: var(--color-primary-dark);
+}
+
+.nav-link-color{
+  color: var(--color-text-primary) !important;
+}
+
+.navbar-nav-scroll {
+  --bs-scroll-height: 100px;
+}
+
+.custom-toggler {
+  background-color: var(--color-text-primary) !important;
+  /* Otros estilos personalizados */
+}
+
+/* section 1 head  */
+
+.container-img {
+  width: 100%;
+  height: 930px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.1)),
+    url(../assets/images/backgroundImages/bgCaracas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-text {
+  text-align: left;
+  width: 80%;
+  height: 30%;
+}
+
+.container-text h1 {
+  color: var(--color-text-primary);
+  font-size: 5.5em;
+  text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(75, 75, 109);
+}
+.container-text p {
+  color: var(--color-text-primary);
+  font-size: 3em;
+  text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(75, 75, 109);
+}
+
+.container-text a {
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-secondary);
+  border: 1px solid violet;
+  border-radius: 50px;
+  display: inline-flex;
+  margin-top: 15px;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-text a:hover {
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-primary);
+  transform: scale(1.2);
+  transition: all 0.5s linear;
+}
+
+/* section 2 cards */
+.text-container {
+  background-color: var(--color-primary);
+  height: 25%;
+  padding: 30px 0px;
+}
+
+.text-container h2 {
+  color: var(--color-text-primary);
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.text-container p {
+  color: var(--color-text-primary);
+  text-align: center;
+  font-size: 1em;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: var(--color-primary-dark);
+  width: 450px;
+  margin: 20px 70px;
+  border-radius: 10px;
+}
+
+.img-box {
+  height: 170px;
+  margin-bottom: 10px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.img-1 {
+  background-image: url(/assets/images/sectionOneImages/calafate.jpg);
+}
+
+.img-2 {
+  background-image: url(/assets/images/sectionOneImages/merida.jpg);
+}
+
+.img-3 {
+  background-image: url(/assets/images/sectionOneImages/lago.jpg);
+}
+
+.card p {
+  padding: 10px;
+  color: var(--color-text-primary);
+}
+
+.card-container h2 {
+  padding: 5px;
+  margin-left: 5px;
+  color: var(--color-text-primary);
+}
+
+.card a {
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-secondary);
+  border: 1px solid violet;
+  border-radius: 50px;
+  display: block;
+  padding: 10px 0px;
+  text-align: center;
+  margin: 15px 50px;
+  cursor: pointer;
+}
+
+.card-container .card a:hover {
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-primary);
+  transform: scale(1.2);
+  transition: all 0.3s linear;
+}
+
+/* section 3 about travels */
+
+.container-article {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-primary-dark);
+}
+
+.img-article {
+  width: 1000px;
+}
+
+.text-article {
+  text-align: center;
+  justify-content: center;
+  padding: 1.875em 1.875em;
+  color: var(--color-text-primary);
+}
+
+.text-article h1 {
+  text-align: center;
+  font-size: 2.5em;
+  justify-content: center;
+  text-justify: auto;
+  margin: 10px 0;
+}
+
+/* Section 4 experience coments*/
+
+.container-routes .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-routes .box-container .post-box {
+  background-color: var(--color-primary-dark);
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  position: relative;
+  border: 1em solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0.5em 1em rgba(0, 0, 0, 0.1);
+  flex-basis: 45%;
+  max-width: 30em;
+}
+
+.container-routes .box-container .post-box .user h3 {
+  color: var(--color-text-primary);
+  font-size: 2em;
+}
+
+.container-routes .box-container .post-box .stars i {
+  font-size: 1.5em;
+  color: var(--color-text-secondary);
+  padding: 1em 0;
+}
+
+.container-routes .box-container .post-box .coments-box {
+  color: var(--color-text-primary);
+  font-size: 1em;
+  padding: 1em;
+}
+
+.container-routes .box-container .post-box .user img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 8em;
+  width: 8em;
+  margin-top: 2em;
+}
+
+/* footer section  index */
+
+.container-footer {
+  width: 100%;
+  background-color: #0a141d;
+}
+.container-footer .first-section {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 25px 0px;
+}
+
+.container-footer .first-section .footer-box h2 {
+  color: var(--color-text-primary);
+  margin-bottom: 25px;
+  text-align: center;
+}
+.container-footer .first-section .footer-box p {
+  color: var(--color-text-primary);
+  margin-bottom: 10px;
+}
+
+.container-footer .first-section .contact {
+  display: flex;
+  justify-content: center;
+}
+.container-footer .first-section .contact a {
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: var(--color-text-secondary);
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.container-footer .first-section .contact a:hover {
+  color: var(--color-text-primary);
+}
+
+.container-footer .first-section .footer-box ol {
+  color: var(--color-text-primary);
+  margin-bottom: 25px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.container-footer .first-section .footer-box li {
+  list-style: none;
+}
+
+/* routes.html view */
+
+.head-routes {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+video {
+  max-width: 100%;
+  margin-bottom: -6px;
+}
+
+.media-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.media-title h1 {
+  color: var(--color-text-primary);
+  font-size: 6vw;
+  text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(75, 75, 109);
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgb(0, 0, 0, 0.575);
+}
+
+/* ********* Routes - Section II ****************/
+
+.container-routesText {
+  width: 50%;
+  padding: 2rem;
+  background-color: #d69191;
+}
+
+.container-routesText h1 {
+  font-size: 1.5em;
+  padding-bottom: 0.5rem;
+}
+
+.container-routes p {
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+/* ********* Routes - Section III ****************/
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "img1 img2"
+    "img3 img2";
+  padding: 5rem;
+  gap: 2rem;
+}
+
+.grid-item {
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center center;
+  padding: 1.5rem;
+  text-align: end;
+}
+
+.grid-item h2,
+.grid-item h3 {
+  color: var(--color-text-primary);
+}
+
+.grid-img1 {
+  grid-area: img1;
+  background-image: url(../assets/images/sectionOneImages/caracas.jpg);
+}
+
+.grid-img2 {
+  grid-area: img2;
+  background-image: url(../assets/images/sectionOneImages/calafate.jpg);
+}
+
+.grid-img3 {
+  grid-area: img3;
+  background-image: url(../assets/images/sectionOneImages/lago.jpg);
+}
+
+/* ****************************About Me************************************ */
+
+.img-large {
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    height: auto;
+    padding: 5px 5%;
+    flex-direction: column;
+  }
+
+  .header .logo {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .header .nav-links {
+    flex-direction: column;
+  }
+
+  .header .nav-links .nav-home {
+    display: none;
+    justify-content: center;
+  }
+
+  .header .nav-links .nav-routes {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header .nav-links .nav-adventure {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header .nav-links .nav-aboutMe {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header .nav-links .nav-location {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header .nav-links li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .header .btn-log button {
+    font-size: 12px;
+    padding: 5px 15px;
+    display: none;
+  }
+
+  .container-text h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .container-text p {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .container-text a:nth-child(1) {
+    margin-left: 80px;
+  }
+
+  .container-routes .box-container .post-box {
+    flex-basis: 90%;
+    max-width: 90%;
+  }
+
+  .container-footer .first-section {
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 35px 0;
+    justify-items: center;
+  }
+
+  .container-footer .first-section .footer-box {
+    text-align: center;
+  }
+
+  .container-footer .first-section .footer-box:nth-child(1),
+  .container-footer .first-section .footer-box:nth-child(3) {
+    display: none;
+  }
+
+  .container-article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .text-article h1 {
+    text-align: center;
+    margin: 0.625rem 0;
+  }
+
+  .img-article {
+    width: 100%;
+    padding: 0.938rem;
+  }
+}
