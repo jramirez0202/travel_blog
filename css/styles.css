@@ -28,6 +28,7 @@ body {
   background-color: var(--color-primary-dark);
 }
 
+
 .main-logo {
   height: 70px;
   margin-right: 50px;
@@ -188,7 +189,7 @@ body {
 .single-img:hover .card-info {
   transform: translate(0, 0);
 }
-/* ******************************************* */
+
 
 /* section 2 cards */
 .text-container {
@@ -225,7 +226,6 @@ body {
   height: 130px;
 }
 
-/* ************************************************** */
 
 /* Section 4 experience coments*/
 
@@ -272,7 +272,14 @@ body {
   margin-top: 2em;
 }
 
-/* footer section  index */
+/* *************adventures ******************* */
+p{
+  color: var(--color-text-primary);
+}
+
+/* ******************************************* */
+
+/* *************footer section ******************** */
 
 .container-footer {
   width: 100%;
@@ -422,15 +429,15 @@ video {
 
 /* ********* Routes - Section III ****************/
 
-.grid {
+.grid-route {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "img1 img2"
     "img3 img2";
-  padding: 5rem;
-  gap: 2rem;
+  padding: 2rem;
+  gap: 1rem;
 }
 
 .grid-item {
@@ -444,6 +451,7 @@ video {
 .grid-item h2,
 .grid-item h3 {
   color: var(--color-text-primary);
+  font-size: small;
 }
 
 .grid-img1 {
@@ -454,6 +462,7 @@ video {
 .grid-img2 {
   grid-area: img2;
   background-image: url(../assets/images/sectionOneImages/calafate.jpg);
+  height: 22.5rem;
 }
 
 .grid-img3 {
@@ -600,7 +609,7 @@ video {
     width: 100%;
   }
 
-  a {
+  /* a {
     margin-bottom: 35px;
-  }
+  } */
 }
