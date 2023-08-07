@@ -4,42 +4,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+  <meta name="description" content="Aqui verascitinerarios detallados, consejos útiles y recomendaciones para que puedas recorrer el mundo de manera segura y sin preocupaciones. Desde viajes cortos de fin de semana hasta largas travesías, encontrarás diversas rutas para satisfacer tu pasión por viajar.">
+  <meta name="keywords" content="fotograífas, relatos, paisajes, informacion, tips de viajes, experiencias de viajeros ">
+  <link rel="stylesheet" type="text/css" href="../css/main.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <title>Routes</title>
 </head>
 <body>
   <header>
-    <nav class="header navbar navbar-expand-lg">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#"><img class="main-logo" src="../assets/images/favicon.png" alt="Planet image"></a>
-				<button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarScroll">
-					<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-						<li class="nav-item">
-							<a class="nav-link nav-link-color" href="../index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link nav-link-color" href="../pages/adventure.html">Adventures</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link nav-link-color" href="../pages/location.html">Location</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link nav-link-color" href="../pages/routes.html">Routes</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link nav-link-color" href="../pages/aboutme.html">About Me</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+    <nav class="header navbar navbar-expand-lg transparentNavbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse lineNavbar" id="navbarScroll">
+          <ul class="navbar-nav centerNavbar me-auto my-2 my-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link nav-link-color" href="../pages/adventure.html">Adventures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-color" href="../pages/location.html">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand" href="../index.html"><img class="main-logo" src="../assets/images/logo.png" alt="Planet image"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-color" href="../pages/routes.html">Routes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-color" href="../pages/aboutme.html">About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <main>
+    <section>
+      <div class="container-img__routes">
+        <div class="banner-text__home">
+          <h1>Aventurate</h1>
+          <p>No es dificíl de hacer</p>
+          <a class="btn-effect" href="./pages/adventure.html"> Cuentame más </a>
+        </div>
+      </div>
+    </section>
+
     <section class="head-routes">
       <div class="overlay-video"></div>
       <div class="media-title">
@@ -49,6 +60,7 @@
         <source src="../assets/videos/hiurich-g-vzla-beach.mp4" type="video/mp4" >
       </video>
     </section>
+
     <section>
       <div class="container-routesText">
         <h1>Esto es un titulo</h1>
@@ -59,6 +71,7 @@
         Aperiam, accusantium nemo, corrupti cum id et unde inventore iure, earum delectus sit? Vel maiores voluptatem laudantium quas velit non mollitia doloribus! Aperiam cumque praesentium provident eum accusamus quas quisquam.
         </p>
     </section>
+    
     <section class="grid-route">
       <div class="grid-item grid-img1">
         <h2>algo referente</h2>
@@ -75,32 +88,34 @@
         <h3>otro texto referente</h3>
       </div>
     </section>
+
+    
   </main>
   <footer class="container-footer">
     <div class="first-section">
       <div class="footer-box">
-        <h2>SOBRE NOSOTROS</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?
+        <h2>SOBRE EL BLOG</h2>
+        <p class="first-p">
+          Todos son bienvenidos a compartir sus experiencias de viajes dejar un granito de arena para todos nuestros leyentes
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?
+        <p class="second-p">
+          Agredecemos todos los aportes y seguiremos creciendo como comunidad
         </p>
       </div>
       <div class="footer-box">
-        <h2>SIGUENOS</h2>
+        <h2>A TRAVES DE LAS RRSS</h2>
         <div class="contact">
-          <a href="#" class="fa fa-whatsapp"></a>
-          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-whatsapp icon"></a>
+          <a href="#" class="fa fa-instagram icon"></a>
         </div>
       </div>
       <div class="footer-box">
-        <h2>SABER MAS</h2>
+        <h2>PROXIMOS DESTINOS</h2>
         <div class="contact">
           <ol>
-            <li>Routes</li>
-            <li>aboutme</li>
-            <li>adventure</li>
+            <li>Mexico</li>
+            <li>Uruguay</li>
+            <li>Cuba</li>
           </ol>
         </div>
       </div>

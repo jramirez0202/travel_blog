@@ -4,30 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="description" content="¡Blog de viaje para todos! Acompáñame en esta emocionante aventura mientras comparto experiencias y aprendizajes en las travesías de viajeros por latinoametica. Inspirate a superar tus miedos y dudas para descubrir lugares increíbles, sumergete en culturas fascinantes y momentos inolvidables. ¡Únete a los viajeros valientes y comienza a explorar el mundo y comparte con confianza!">
+    <meta name="keywords" content="fotograífas, relatos, paisajes, informacion, tips de viajes, experiencias de viajeros ">
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Blog de viaje para todos</title>
   </head>
   <body>
     <header>
-      <nav class="header navbar navbar-expand-lg fixed-top">
+      <nav class="header navbar navbar-expand-lg transparentNavbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html"><img class="main-logo" src="./assets/images/favicon.png" alt="Planet image"></a>
           <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+          <div class="collapse navbar-collapse lineNavbar" id="navbarScroll">
+            <ul class="navbar-nav centerNavbar me-auto my-2 my-lg-0 ">
               <li class="nav-item">
-                <a class="nav-link nav-link-color" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-link-color algo" href="./pages/adventure.html">Adventures</a>
+                <a class="nav-link nav-link-color" href="./pages/adventure.html">Adventure</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-link-color" href="./pages/location.html">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand" href="./index.html"><img class="main-logo" src="./assets/images/logo.png" alt="Planet image"></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-link-color" href="./pages/routes.html">Routes</a>
@@ -43,12 +44,10 @@
     <main>
       <section>
         <div class="container-img">
-          <div class="container-text">
-            <h1>Aventurate</h1>
-            <p>No estan dificil de hacerlo</p>
-            <div>
-              <a class="btn-effect" href="./pages/adventure.html"> Cuentame más </a>
-            </div>
+          <div class="banner-text__home">
+            <h1>Lugares Increíbles</h1>
+            <p>Acepta la aventura y recorre latam</p>
+            <a class="btn-effect" href="./pages/adventure.html"> Cuentame más </a>
           </div>
         </div>
       </section>
@@ -61,31 +60,38 @@
 
         <div class="wrapper">
           <div class="card-wrapper">
-            <a href="">
+            <a href="#">
               <span class="single-img img-one">
                 <span class="card-info">
-                  <h4>Titulo</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, vero tempore nesciunt dolores deleniti id! Dolorum ab, voluptas quia nemo, odit minima ipsam incidunt amet ut quos cumque! Molestias, ipsam?</p>
-                  <button class="btn-effect"> read more </button>
-                </span>
-              </span>
-            </a>
-
-            <a href="">
-              <span class="single-img img-two">
-                <span class="card-info">
-                  <h4>Titulo</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, vero tempore nesciunt dolores deleniti id! Dolorum ab, voluptas quia nemo, odit minima ipsam incidunt amet ut quos cumque! Molestias, ipsam?</p>
+                  <h4>Fauna Silvestre</h4>
+                  <p>Cada criatura juega un papel vital en el equilibrio de los ecosistemas y nos conecta con la naturaleza de formas únicas. Cuidar y proteger la fauna es fundamental para mantener la biodiversidad y asegurar un futuro sostenible para todos</p>
                   <button class="btn-effect"> Read more </button>
                 </span>
               </span>
             </a>
-
-            <a href="">
+            <a href="#">
+              <span class="single-img img-four">
+                <span class="card-info">
+                  <h4>Paisajes Unicos</h4>
+                  <p>Cada criatura juega un papel vital en el equilibrio de los ecosistemas y nos conecta con la naturaleza de formas únicas. Cuidar y proteger la fauna es fundamental para mantener la biodiversidad y asegurar un futuro sostenible para todos</p>
+                  <button class="btn-effect"> Read more </button>
+                </span>
+              </span>
+            </a>
+            <a href="#">
+              <span class="single-img img-two">
+                <span class="card-info">
+                  <h4>Comidas Locales</h4>
+                  <p>son una de las mejores experiencias que se pueden tener al viajar o conocer diferentes culturas. Cada región tiene su propia gastronomía única y auténtica, que refleja la historia, tradiciones y recursos naturales del lugar.</p>
+                  <button class="btn-effect"> Read more </button>
+                </span>
+              </span>
+            </a>
+            <a href="#">
               <span class="single-img img-three">
                 <span class="card-info">
-                  <h4>Titulo</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, vero tempore nesciunt dolores deleniti id! Dolorum ab, voluptas quia nemo, odit minima ipsam incidunt amet ut quos cumque! Molestias, ipsam?</p>
+                  <h4>Disfruar la Naturaleza</h4>
+                  <p> Es una oportunidad para sumergirse en entornos naturales, apreciar paisajes impresionantes y disfrutar de la tranquilidad y paz que solo la vida al aire libre puede brindar ademas,se puede disfrutar los sonidos relajantes de la naturaleza </p>
                   <button class="btn-effect"> Read more </button>
                 </span>
               </span>
@@ -100,20 +106,26 @@
         </div>
         <div class="container-flags">
           <div class="col-flags">
-            <img src="./assets/images/sectionOneImages/flags/Flag_of_Brazil.svg.webp" alt="bandera brasil">
+            <img src="./assets/images/indexImages/flags/220px-Flag_of_Venezuela_(1930–2006).svg.png" alt="bandera Venezuela">
           </div>
           <div class="col-flags">
-            <img src="./assets/images/sectionOneImages/flags/Flag_of_Colombia.svg.webp" alt="bandera colombia">
+            <img src="./assets/images/indexImages/flags/Flag_of_Brazil.svg.webp" alt="bandera Brasil">
           </div>
           <div class="col-flags">
-            <img src="./assets/images/sectionOneImages/flags/Flag_of_Panama.svg.png" alt="bandera panamá">
+            <img src="./assets/images/indexImages/flags/Flag_of_Colombia.svg.webp" alt="bandera de Colombia">
+          </div>
+          <div class="col-flags">
+            <img src="./assets/images/indexImages/flags/Flag_of_Panama.svg.png" alt="bandera Panamá">
+          </div>
+          <div class="col-flags">
+            <img src="./assets/images/indexImages/flags/Flag_of_Argentina.svg" alt="bandera Argentina">
           </div>
         </div>
       </section>
 
       <section class="container-routes">
         <div class="text-container">
-          <h2>Experiencias en Rutas</h2>
+          <h2>Experiencias de Viajes</h2>
           <div class="box-container">
             <div class="post-box">
               <div class="user">
@@ -121,7 +133,7 @@
                   src="./assets/images/userImages/user1.jpg"
                   alt="usuario creado con ia"
                 />
-                <h3>pedro</h3>
+                <h3>Pedro Emilio</h3>
               </div>
               <div class="stars">
                 <i class="fa fa-star"></i>
@@ -130,7 +142,8 @@
                 <i class="fa fa-star"></i>
               </div>
               <div class="coments-box">
-                <p>estoy muy feliz de haber viajado es vida</p>
+                <p>Mi experiencia de viaje fue simplemente inolvidable. Desde el momento en que pisé tierra extranjera, me sentí abrumado por la emoción y la curiosidad de explorar un lugar completamente nuevo</p>
+                <button action="#"class="btn-effect">ver mas</button>
               </div>
             </div>
 
@@ -140,7 +153,7 @@
                   src="./assets/images/userImages/user2.jpg"
                   alt="usuario creado con ia"
                 />
-                <h3>Juancito</h3>
+                <h3>Valentina Suarez</h3>
               </div>
               <div class="stars">
                 <i class="fa fa-star"></i>
@@ -150,7 +163,8 @@
                 <i class="fa fa-star"></i>
               </div>
               <div class="coments-box">
-                <p>estoy muy feliz de haber viajado es vida</p>
+                <p>Estuve en Venezuela Conocí gente muy amable y acogedora que me mostró la verdadera esencia de su cultura. Desde probar platos tradicionales deliciosos hasta aprender frases básicas en el idioma local, me sumergí en la vida cotidiana de aquel lugar y me sentí parte de una comunidad increible, me enamoré.</p>
+                <button class="btn-effect">ver mas</button>
               </div>
             </div>
 
@@ -160,7 +174,7 @@
                   src="./assets/images/userImages/user3.jpg"
                   alt="usuario creado con ia"
                 />
-                <h3>Maria</h3>
+                <h3>Maria Ramirez</h3>
               </div>
               <div class="stars">
                 <i class="fa fa-star"></i>
@@ -170,7 +184,8 @@
                 <i class="fa fa-star"></i>
               </div>
               <div class="coments-box">
-                <p>estoy muy feliz de haber viajado es vida</p>
+                <p>Soy arqueóloga y recorrer calles de Chile, explorar monumentos históricos y visitar museos enriqueció mi conocimiento y aprecio por la historia y el arte. Cada rincón estaba lleno de historia y cultura que me inspiró a seguir aprendiendo y explorando.</p>
+                <button class="btn-effect">ver mas</button>
               </div>
             </div>
           </div>
@@ -181,28 +196,28 @@
     <footer class="container-footer">
       <div class="first-section">
         <div class="footer-box">
-          <h2>SOBRE NOSOTROS</h2>
+          <h2>SOBRE EL BLOG</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?
+            Todos son bienvenidos a compartir sus experiencias de viajes dejar un granito de arena para todos nuestros leyentes
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?
+            Agredecemos todos los aportes y seguiremos creciendo como comunidad
           </p>
         </div>
         <div class="footer-box">
-          <h2>SIGUENOS</h2>
+          <h2>A TRAVES DE LAS RRSS</h2>
           <div class="contact">
-            <a href="#" class="fa fa-whatsapp"></a>
-            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-whatsapp icon"></a>
+            <a href="#" class="fa fa-instagram icon"></a>
           </div>
         </div>
         <div class="footer-box">
-          <h2>SABER MAS</h2>
+          <h2>PROXIMOS DESTINOS</h2>
           <div class="contact">
             <ol>
-              <li>Routes</li>
-              <li>aboutme</li>
-              <li>adventure</li>
+              <li>Mexico</li>
+              <li>Uruguay</li>
+              <li>Cuba</li>
             </ol>
           </div>
         </div>

@@ -1,0 +1,19 @@
+
+@import "./partials/mediaQueries";
+@import "./partials/variables";
+
+/* *********** GLOBAL ************** */
+
+@import "./partials/reset";
+@import "./partials/navbar";
+@import "./partials/footer";
+
+
+/* *********** PAGES************** */
+
+@import "./partials/indexMain";
+@import "./partials/adventuresMain";
+@import "./partials/locationMain";
+@import "./partials/routesMain.scss";
+@import "./partials/aboutmeMain";
+

@@ -1,0 +1,17 @@
+Por hacer
+
+
+*arreglar la sombra de la galeria.
+
+* aagregar las etiquetas SEO explicadas en clase en cada archivo
+
+
+
+
+Done
+*Cambiar el tipo de letra de la navbar
+* hacer vistas parciales.
+*arregllar el menu hamburguesa que no se scrolleable*
+* centrar el boton saber mas de banner index*
+* ampliar los iconos de las redes sociles del footer
+*arreglar el responsive de cards del index

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=DM+Sans:wght@400;700&family=Lilita+One&display=swap');
+
+// ***fonts****
+
+$fontDmSans: "DM Sans", sans-serif;
+$lilitaFont:  'Caprasimo';
+
+
+
+//**** colors****
+$color-primary: #3a506b;
+$color-primary-dark: #1e2c55;
+$color-secondary-light: rgba(255, 255, 255, 0.5);
+$color-text-primary: #dde1f3;
+$color-text-secondary: #d69191;
+$color-bg-footer: #1a1a1b;
+$color-text-navbar: rgba(57, 248, 130, 0.658);
+$color-text-banner: #5cdcd4;
+
+//**** images ****
+
+$imagen_por_numero: (
+  2: "passport.jpg",
+  3: "bag.jpg",
+);
+
+
+// boton effect
+
+@mixin btn-effect() {
+  background-color: $color-primary-dark;
+  color: $color-text-secondary;
+  border: 1px solid violet;
+  border-radius: 50px;
+  margin-top: 15px;
+  padding: 5px 20px;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+// btn-effect hover
+
+@mixin btn-effect__hover(){
+  color: $color-text-primary;
+  transform: scale(1.2);
+  transition: all 0.5s linear;
+}
+
