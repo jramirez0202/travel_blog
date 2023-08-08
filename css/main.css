@@ -789,16 +789,16 @@ nav {
 }
 .grid-route .grid-item.grid-img1 {
   grid-area: img1;
-  background-image: url(../../assets/images/aboutMe/collage/img_4.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_4.JPG);
 }
 .grid-route .grid-item.grid-img2 {
   grid-area: img2;
-  background-image: url(../../assets/images/aboutMe/collage/img_3.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_3.JPG);
   height: 22.5rem;
 }
 .grid-route .grid-item.grid-img3 {
   grid-area: img3;
-  background-image: url(../../assets/images/aboutMe/collage/img_2.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_2.JPG);
 }
 .grid-route .grid-item h2 {
   color: #dde1f3;
@@ -815,7 +815,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../../assets/images/backgroundImages/lago.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../assets/images/backgroundImages/lago.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -889,7 +889,7 @@ nav {
   font-size: medium;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/johan.jpg);
+  background-image: url(../assets/images/aboutMe/johan.jpg);
 }
 #destinations .travel-photos h2 {
   background-color: rgba(10, 10, 10, 0.5);
@@ -921,95 +921,95 @@ nav {
   grid-area: travel-photos-2;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_1.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_1.JPG);
 }
 #destinations .travel-photos-3 {
   grid-area: travel-photos-3;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_3.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_3.JPG);
 }
 #destinations .travel-photos-4 {
   grid-area: travel-photos-4;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_4.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_4.JPG);
 }
 #destinations .travel-photos-5 {
   grid-area: travel-photos-5;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_5.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_5.JPG);
 }
 #destinations .travel-photos-6 {
   grid-area: travel-photos-6;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_6.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_6.JPG);
 }
 #destinations .travel-photos-7 {
   grid-area: travel-photos-7;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_7.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_7.JPG);
 }
 #destinations .travel-photos-8 {
   grid-area: travel-photos-8;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_8.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_8.JPG);
 }
 #destinations .travel-photos-9 {
   grid-area: travel-photos-9;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_9.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_9.JPG);
 }
 #destinations .travel-photos-10 {
   grid-area: travel-photos-10;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_10.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_10.JPG);
 }
 #destinations .travel-photos-11 {
   grid-area: travel-photos-11;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_11.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_11.JPG);
 }
 #destinations .travel-photos-12 {
   grid-area: travel-photos-12;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_12.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_12.JPG);
 }
 #destinations .travel-photos-13 {
   grid-area: travel-photos-13;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_13.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_13.JPG);
 }
 #destinations .travel-photos-14 {
   grid-area: travel-photos-14;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_14.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_14.JPG);
 }
 #destinations .travel-photos-15 {
   grid-area: travel-photos-15;
   background-size: cover;
   background-position: center;
-  background-image: url("../../assets/images/aboutMe/collage/img_15.JPG");
+  background-image: url(../assets/images/aboutMe/collage/img_15.JPG);
 }
 #destinations .travel-photos-16 {
   grid-area: travel-photos-16;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_16.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_16.JPG);
 }
 #destinations .travel-photos-17 {
   grid-area: travel-photos-17;
   background-size: cover;
   background-position: center;
-  background-image: url(../../assets/images/aboutMe/collage/img_17.JPG);
+  background-image: url(../assets/images/aboutMe/collage/img_17.JPG);
 }/*# sourceMappingURL=main.css.map */
