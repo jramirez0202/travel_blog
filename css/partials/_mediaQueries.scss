@@ -189,6 +189,9 @@
     max-width: 100%;
     height: auto;
   }
+  #banner-desktop {
+    display: none; /* Oculta el banner móvil */
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -212,30 +215,13 @@
 
 @media (min-width: 768px) and (max-width: 820px) {
 
-
+  #banner-desktop {
+    display: none;
+  }
   .container-footer .first-section .footer-box .second-p {
     display: none;
   }
-  // #aboutMe {
-  //   display: none !important;
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr;
-  //   grid-template-rows: 1fr 1fr 1fr; 
-  //   gap: 20px;
-  //   padding: 20px;
-  //   box-sizing: border-box;
-
-  //   & .info .my-info {
-  //     display: none !important;
-  //   }
-  // }
-
-  // .info .my-info {
-  //   display: none !important;
-  //   grid-column: auto !important;
-  //   grid-row: auto !important;
-  // }
-
+  
   #destinations{
     grid-template-areas: 
     "travel-photos travel-photos travel-photos travel-photos travel-photos travel-photos travel-photos travel-photos"
@@ -251,3 +237,12 @@
 
 }
 
+@media screen and (max-width: 3750px) and (min-width: 769px) {
+  #banner-mobile {
+      display: none; /* Oculta el banner móvil */
+  }
+
+  #banner-desktop {
+      display: block; /* Muestra el banner de escritorio */
+  }
+}

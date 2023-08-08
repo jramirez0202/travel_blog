@@ -50,19 +50,25 @@
 
   .media-title {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 55%;
+    left: 25%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 24px;
-    color: white;
+    font-size: 24px !important;
+    color: $color-text-primary;
+    text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgba(135, 135, 151, 0.445);
+    background-color: rgba(49, 45, 45, 0.199);
+    border-radius: 20%;
 
     & h1 {
+      font-size: 4vw;
+    }
+
+    & p{
       color: $color-text-primary;
-      font-size: 6vw;
-      text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
-        0 0 0.2em rgb(75, 75, 109);
-      margin: 0;
+      font-size: 2vw;
+
     }
   }
 
@@ -70,27 +76,18 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background: rgba(0, 0, 0, 0.575);
+    background: rgba(156, 138, 138, 0.329);
   }
 }
-
-section {
-  .container-routesText {
-    width: 50%;
-    padding: 2rem;
-    background-color: #d69191;
-
-    & h1 {
-      font-size: 1.5em;
-      padding-bottom: 0.5rem;
-    }
-
-    & p {
-      padding: 0.5rem 0;
-      margin-bottom: 1rem;
-    }
-  }
+.ribbon {
+  width: 100%; 
+  background-color: $color-primary-dark; 
+  color: $color-text-primary; 
+  padding: 50px;
+  text-align: center;
+  margin: auto;
 }
+
 
 .grid-route {
     display: grid;
@@ -111,18 +108,18 @@ section {
   
       &.grid-img1 {
         grid-area: img1;
-        background-image: url(../assets/images/sectionOneImages/caracas.jpg);
+        background-image: url(../../assets/images/aboutMe/collage/img_4.JPG);
       }
       
       &.grid-img2 {
         grid-area: img2;
-        background-image: url(../assets/images/sectionOneImages/merida.jpg);
+        background-image: url(../../assets/images/aboutMe/collage/img_3.JPG);
         height: 22.5rem;
       }
       
       &.grid-img3 {
         grid-area: img3;
-        background-image: url(../assets/images/sectionOneImages/caracas.jpg);
+        background-image: url(../../assets/images/aboutMe/collage/img_2.JPG);
       }
   
       & h2 {
