@@ -1,17 +1,21 @@
 Por hacer
-
-
-*arreglar la sombra de la galeria.
-
-* aagregar las etiquetas SEO explicadas en clase en cada archivo
-
-
+Decidir por una paleta de colores
+trabajar en vista mobile de about menu
+pasar los textos de las card del index a la vista route u otra y conectar con read more
+Cambiar colres del navbar y agregar las lineas border
 
 
 Done
+* aagregar las etiquetas SEO explicadas en clase en cada archivo
+*arreglar la sombra de la galeria.
 *Cambiar el tipo de letra de la navbar
 * hacer vistas parciales.
 *arregllar el menu hamburguesa que no se scrolleable*
 * centrar el boton saber mas de banner index*
 * ampliar los iconos de las redes sociles del footer
 *arreglar el responsive de cards del index
+
+
+Notas:
+
+Form oculto para desktop

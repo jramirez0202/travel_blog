@@ -1,6 +1,6 @@
 .container-img__location {
   width: 100%;
-  height: 930px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,29 +9,34 @@
       rgb(0 0 0 / 0.5),
       rgb(0 0 0 / 0.1)
     ),
-    url(../assets/images/backgroundImages/arches-park-utah.jpg);
+    url(../../assets/images/backgroundImages/arches-park-utah.jpg);
   background-size: cover;
   background-position: center;
 
-  .banner-text__location {
+  & .banner-text__location {
     text-align: center;
     width: 80%;
-    height: 30%;
+
+    & h1 {
+      font-family: $textBanner;
+      font-size: 3rem;
+      color: $color-primary;
+      text-align: center;
+      margin-inline: 20px;
+      text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
+        0 0 0.2em rgb(75, 75, 109);
+    }
+    & p {
+      color: $color-primary;
+      font-size: 1.5rem;
+      text-align: center;
+      text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
+        0 0 0.2em rgb(75, 75, 109);
+    }
   }
   
-  & h1 {
-    color: $color-text-primary;
-    font-size: 5.5em;
-    text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
-      0 0 0.2em rgb(75, 75, 109);
-  }
-  & p {
-    color: $color-text-banner;
-    font-size: 3em;
-    text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
-      0 0 0.2em rgb(75, 75, 109);
-  }
 }
+
 
 .conta-gallery {
   min-height: 100vh;
@@ -41,6 +46,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
   gap: 1rem;
+  cursor: pointer;
 
   .img-gallery {
     width: 100%;
@@ -76,6 +82,16 @@
   width: 80%;
   margin: 0 auto;
   padding: 10px;
+  color: $color-text-primary;
+
+  & h1 {
+    color:$color-text-secondary;
+  }
+
+  & img {
+    border-radius: 10px;
+    border: solid $color-text-secondary;
+  }
 }
 
 .left-content {
@@ -96,8 +112,8 @@
   height: auto;
 }
 
-
-
-
+#location-titles .ribbon {
+  margin-block: 45px;
+}
 
 

@@ -14,27 +14,27 @@
   </head>
   <body>
     <header>
-      <nav class="header navbar navbar-expand-lg transparentNavbar">
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-centered">
         <div class="container-fluid">
-          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse lineNavbar" id="navbarScroll">
-            <ul class="navbar-nav centerNavbar me-auto my-2 my-lg-0 ">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto centered-list">
               <li class="nav-item">
-                <a class="nav-link nav-link-color" href="./pages/adventure.html">Adventure</a>
+                <a class="nav-link nav-link-color" href="../pages/adventure.html">Adventures</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link-color" href="./pages/location.html">Location</a>
+                <a class="nav-link nav-link-color" href="../pages/location.html">Location</a>
               </li>
               <li class="nav-item">
-                <a class="navbar-brand" href="./index.html"><img class="main-logo" src="./assets/images/logo.png" alt="Planet image"></a>
+                <a class="navbar-brand" href="../index.html"><img class="main-logo" src="../assets/images/logo.png" alt="Planet image"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link-color" href="./pages/routes.html">Routes</a>
+                <a class="nav-link nav-link-color" href="../pages/routes.html">Routes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link-color" href="./pages/aboutme.html">About Me</a>
+                <a class="nav-link nav-link-color" href="../pages/aboutme.html">About Me</a>
               </li>
             </ul>
           </div>
@@ -43,17 +43,15 @@
     </header>
     <main>
       <section>
-        <div class="container-img">
-          <div class="banner-text__home">
-            <h1>Lugares Increíbles</h1>
-            <p>Acepta la aventura y recorre latam</p>
-            <a class="btn-effect" href="./pages/adventure.html"> Cuentame más </a>
+        <div class="img-index">
+          <div class="banner-text__index">
+            <h1>Un mundo para explorar</h1>
+            <p>El camino sera tu guia</p>
           </div>
-        </div>
       </section>
 
       <section>
-        <div class="text-container">
+        <div class="ribbon">
           <h2>Conociendo Latinoamerica</h2>
           <p>Conoce los destinos de viajes más espectaculares de latam y vive experiencias apasionantes, sol@ o acompañad@.</p>
         </div>
@@ -100,32 +98,43 @@
         </div>
       </section>
 
-      <section>
-        <div class="text-container">
+      <section id="flags">
+        <div class="ribbon">
           <h2>Conoceras Sitios increibles para viajes</h2>
         </div>
         <div class="container-flags">
           <div class="col-flags">
-            <img src="./assets/images/indexImages/flags/220px-Flag_of_Venezuela_(1930–2006).svg.png" alt="bandera Venezuela">
+            <a href="./pages/aboutme.html"><img src="./assets/images/indexImages/flags/Flag_of_Venezuela.svg.png" alt="bandera Venezuela"></a>
+            <h2>Venezuela</h2>
           </div>
           <div class="col-flags">
-            <img src="./assets/images/indexImages/flags/Flag_of_Brazil.svg.webp" alt="bandera Brasil">
+            <a href="./pages/aboutme.html"><img src="./assets/images/indexImages/flags/Flag_of_Brazil.svg.webp" alt="bandera Brasil"></a>
+            <h2>Brasil</h2>
           </div>
           <div class="col-flags">
-            <img src="./assets/images/indexImages/flags/Flag_of_Colombia.svg.webp" alt="bandera de Colombia">
+            <a href="./pages/aboutme.html"><img src="./assets/images/indexImages/flags/Flag_of_Colombia.svg.webp" alt="bandera de Colombia"></a>
+            <h2>Colombia</h2>
           </div>
           <div class="col-flags">
-            <img src="./assets/images/indexImages/flags/Flag_of_Panama.svg.png" alt="bandera Panamá">
+            <a href="./pages/aboutme.html"><img src="./assets/images/indexImages/flags/Flag_of_Panama.svg.png" alt="bandera Panamá"></a>
+            <h2>Panamá</h2>
           </div>
           <div class="col-flags">
-            <img src="./assets/images/indexImages/flags/Flag_of_Argentina.svg" alt="bandera Argentina">
+            <a href="./pages/aboutme.html"><img src="./assets/images/indexImages/flags/Flag_of_Argentina.svg" alt="bandera Argentina"></a>
+            <h2>Argentina</h2>
+          </div>
+          <div class="col-flags">
+            <a href="./pages/aboutme.html"><img src="./assets/images/indexImages/flags/Flag_of_Chile.png" alt="bandera Chile"></a>
+            <h2>Chile</h2>
           </div>
         </div>
       </section>
 
       <section class="container-routes">
-        <div class="text-container">
+        <div class="ribbon">
           <h2>Experiencias de Viajes</h2>
+        </div>
+        <div class="text-container">
           <div class="box-container">
             <div class="post-box">
               <div class="user">
@@ -143,7 +152,7 @@
               </div>
               <div class="coments-box">
                 <p>Mi experiencia de viaje fue simplemente inolvidable. Desde el momento en que pisé tierra extranjera, me sentí abrumado por la emoción y la curiosidad de explorar un lugar completamente nuevo</p>
-                <button action="#"class="btn-effect">ver mas</button>
+                <a href="./pages/adventure.html"> <button class="btn-effect"> ver mas</button> </a>
               </div>
             </div>
 
@@ -164,7 +173,7 @@
               </div>
               <div class="coments-box">
                 <p>Estuve en Venezuela Conocí gente muy amable y acogedora que me mostró la verdadera esencia de su cultura. Desde probar platos tradicionales deliciosos hasta aprender frases básicas en el idioma local, me sumergí en la vida cotidiana de aquel lugar y me sentí parte de una comunidad increible, me enamoré.</p>
-                <button class="btn-effect">ver mas</button>
+                 <a href="./pages/adventure.html"> <button class="btn-effect"> ver mas</button> </a>
               </div>
             </div>
 
@@ -185,7 +194,7 @@
               </div>
               <div class="coments-box">
                 <p>Soy arqueóloga y recorrer calles de Chile, explorar monumentos históricos y visitar museos enriqueció mi conocimiento y aprecio por la historia y el arte. Cada rincón estaba lleno de historia y cultura que me inspiró a seguir aprendiendo y explorando.</p>
-                <button class="btn-effect">ver mas</button>
+                <a href="./pages/adventure.html"> <button class="btn-effect"> ver mas</button> </a>
               </div>
             </div>
           </div>

@@ -1,63 +1,63 @@
-.container-img {
+.img-index {
   width: 100%;
   height: 930px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to top, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.1)),
+  background: linear-gradient(
+      to top,
+      rgb(0 0 0 / 0.5),
+      rgb(0 0 0 / 0.1)
+    ),
     url(../assets/images/backgroundImages/bgCaracas.jpg);
   background-size: cover;
   background-position: center;
 
-  .banner-text__home {
-    text-align: left;
-    width: 80%;
-    height: 30%;
+  & .banner-text__index {
+    text-align: center;
+    width: 100%;
 
     & h1 {
-      color: $color-text-primary;
-      font-size: 5.5em;
+      font-family: $textBanner;
+      font-size: 3rem;
+      color: $color-primary;
+      text-align: center;
+      margin-inline: 20px;
       text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
         0 0 0.2em rgb(75, 75, 109);
     }
     & p {
-      color: $color-text-primary;
-      font-size: 3em;
+      color: $color-primary;
+      font-size: 1.5rem;
+      text-align: center;
       text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
         0 0 0.2em rgb(75, 75, 109);
     }
+  }
   
-    & .btn-effect {
-      @include btn-effect();
-  
-      &:hover {
-        @include btn-effect__hover();
-      }
-    }
+}
+
+.text-container{
+  background-color: $color-primary;
+  padding: 30px 0px;
+
+  & h2{
+    color: $color-text-primary;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  & p{
+    color: $color-text-primary;
+    text-align: center;
+    font-size: 1em;
   }
 }
 
-  .text-container{
-    background-color: $color-primary;
-    padding: 30px 0px;
-
-    & h2{
-      color: $color-text-primary;
-      text-align: center;
-      font-size: 2.5rem;
-    }
-    & p{
-      color: $color-text-primary;
-      text-align: center;
-      font-size: 1em;
-    }
-  }
-
   .wrapper {
-    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 20px;
   
     .card-wrapper {
       display: flex;
@@ -126,14 +126,24 @@
           text-align: center;
           color: $color-text-primary;
 
-          h4 {
+          & h4 {
             font-weight: bold;
-            color: $color-text-primary;
-            background-color: hsla(120, 4%, 18%, 0.7);
+            color: $color-primary;
+            background-color: $color-shadow-background;
             list-style: 15px;
             padding: 0;
             margin: 15px 0;
           }
+
+          & p{
+            color: rgba(252, 249, 249, 0.897);
+            background-color: $color-shadow-background;
+            list-style: 15px;
+            padding: 0;
+            margin: 15px 0;
+          }
+
+
 
           .btn-effect {
               @include btn-effect();
@@ -147,25 +157,40 @@
     }
   }
 }
+  #flags{
+    & .ribbon {
+      margin-block: 25px;
+    }
+    .container-flags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+  
+      .col-flags {
+        width: 200px;
+  
+        & img{
+          width: 100%;
+          height: 130px;
+        }
 
-  .container-flags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-
-    .col-flags {
-      width: 200px;
-
-      & img{
-        width: 100%;
-        height: 130px;
+        & h2 {
+          color: $color-text-primary;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
       }
     }
   }
+  
 
 
 .container-routes {
+  & .ribbon{
+    margin-top: 25px;
+  }
   .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -184,7 +209,7 @@
 
       .user {
         h3 {
-          color: $color-text-primary;
+          color: $color-primary;
           font-size: 2em;
         }
 
@@ -206,9 +231,12 @@
       }
 
       .coments-box {
-        color: $color-text-primary;
         font-size: 1em;
         padding: 1em;
+
+        & p {
+          color: $color-primary;
+        }
       }
 
       .btn-effect {

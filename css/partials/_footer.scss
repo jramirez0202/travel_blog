@@ -7,17 +7,16 @@
 
     .footer-box {
       flex: 1;
-      padding: 20px;
-      margin-left: 40px;
+      margin: 25px;
 
       h2 {
-        color: $color-text-primary;
+        color: $color-primary;
         margin-bottom: 25px;
         text-align: center;
       }
 
       p {
-        color: $color-text-primary;
+        color: $color-primary;
         margin-bottom: 10px;
         text-align: center;
       }
@@ -43,7 +42,7 @@
       }
 
       ol {
-        color: $color-text-primary;
+        color: $color-primary;
         margin-bottom: 25px;
         text-align: left;
         text-decoration: none;

@@ -1,6 +1,6 @@
   .container-img__routes {
     width: 100%;
-    height: 930px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,19 +10,21 @@
     background-position: center;
   
     .banner-text__home {
-      text-align: left;
-      width: 80%;
-      height: 30%;
+      width: 100%;
 
       & h1 {
-        color: $color-text-primary;
-        font-size: 5.5em;
+        font-family: $textBanner;
+        font-size: 3rem;
+        color: $color-primary;
+        text-align: center;
+        margin-inline: 20px;
         text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
           0 0 0.2em rgb(75, 75, 109);
       }
       & p {
-        color: $color-text-primary;
-        font-size: 3em;
+        color: $color-primary;
+        font-size: 1.5rem;
+        text-align: center;
         text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
           0 0 0.2em rgb(75, 75, 109);
       }
@@ -45,7 +47,8 @@
 
   video {
     max-width: 100%;
-    margin-bottom: -6px;
+    margin-bottom: -8px;
+
   }
 
   .media-title {
@@ -53,29 +56,29 @@
     top: 55%;
     left: 25%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 24px !important;
-    color: $color-text-primary;
-    text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
-    0 0 0.2em rgba(135, 135, 151, 0.445);
-    background-color: rgba(49, 45, 45, 0.199);
-    padding: 10px;
+
 
     & h1 {
-      color: $color-text-primary;
-      font-size: 4vw;
+      font-family: $textBanner;
+      font-size: 3rem;
+      color: $color-primary;
+      text-align: center;
+      margin-inline: 20px;
+      text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
+        0 0 0.2em rgb(75, 75, 109);
     }
 
     & p{
-      color: $color-text-primary;
-      font-size: 2vw;
-
+      color: $color-primary;
+      font-size: 1.5rem;
+      text-align: center;
+      text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
+        0 0 0.2em rgb(75, 75, 109);
     }
   }
 
   .overlay-video {
     width: 100%;
-    height: 100%;
     position: absolute;
     background: rgba(156, 138, 138, 0.329);
   }
@@ -83,12 +86,28 @@
 .ribbon {
   width: 100%; 
   background-color: $color-primary-dark; 
-  color: $color-text-primary; 
+  color: $color-primary; 
   padding: 50px;
   text-align: center;
   margin: auto;
-}
 
+  & h2 {
+    color: $color-primary;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  & p{
+    color: $color-primary;
+    text-align: center;
+    font-size: 1.3em;
+  }
+ 
+
+}
+.next-routes{
+  margin-bottom: 35px;
+}  
 
 .grid-route {
     display: grid;
@@ -124,12 +143,13 @@
       }
   
       & h2 {
-        color: $color-text-primary;
+        color: $color-primary;
+        font-weight:bolder;
         font-size: small;
       }
   
       & h3 {
-        color: $color-text-primary;
+        color: $color-primary;
         font-size: small;
       }
     }

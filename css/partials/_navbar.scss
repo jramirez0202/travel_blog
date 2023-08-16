@@ -1,64 +1,53 @@
-nav{
-  position: relative;
-  z-index: 2;
+
+ #navbarNav {
+  border-top: 1px solid $color-primary;
+  border-bottom: 1px solid $color-primary
+ }
+
+.main-logo {
+  display: flex;
+  height: 50px;
 }
-.transparentNavbar {
-  background: transparent;
+.navbar-centered {
   position: absolute !important;
+  width: 100% !important;
+  top: 50%;
   left: 50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
-  top: 90px;
-
-  .custom-toggler {
-    background-color: $color-text-primary !important;
-    float: left !important;
-    
-  }
-
-  .lineNavbar{
-    margin-top: 80px;
-    border-bottom: 2px solid rgb(231, 231, 231);
-    border-top: 2px solid rgb(231, 231, 231);
-  
-    .centerNavbar {
-      margin-right: auto;
-      margin-left: auto;
-      display: flex;
-      align-items: center;
-
-      & .nav-link-color {
-        color: $color-text-banner !important;
-        transition: all 300ms ease !important;
-        text-shadow: 1px 1px 2px rgb(59, 58, 58), 0 0 1em rgb(173, 105, 105),
-        0 0 0.2em rgb(28, 28, 109);
-      }
-      
-      & .nav-item .nav-link-color:hover {
-        color: $color-text-primary !important;
-      }
-      
-      & .navbar-nav-scroll {
-        --bs-scroll-height: 100px;
-      }
-      
-      & .navbar-nav .navbar-center {
-        position: absolute;
-        left: 50%;
-        transform: translatex(-50%);
-        padding-bottom: 10px;
-      }
-    }
-    
-    .main-logo {
-      display: flex;
-      height: 115px;
-      padding: 35px 30px 0px 30px;
-    }
-  }
-  
-
+  transform: translate(-50%, 0%);
 }
+.navbar-transparent {
+  background-color: transparent !important;
+  position: absolute;
+}
+
+.navbar-container {
+  position: relative;
+}
+
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; 
+  z-index: 1000;
+
+  .centered-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-link-color {
+    color: $color-primary;
+    text-shadow: 1px 1px 2px rgb(22, 22, 22), 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(75, 75, 109);
+    cursor: pointer;
+  }
+  
+}
+
+
 
 
 
