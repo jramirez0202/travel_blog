@@ -46,6 +46,14 @@
     
     .content {
       text-align: center;
+
+      h2{
+        margin-block: 10px;
+      }
+
+      p{
+        margin-inline: 10px;
+      }
     }
   
   }

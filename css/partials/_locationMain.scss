@@ -9,7 +9,7 @@
       rgb(0 0 0 / 0.5),
       rgb(0 0 0 / 0.1)
     ),
-    url(../../assets/images/backgroundImages/arches-park-utah.jpg);
+    url(../assets/images/backgroundImages/arches-park-utah.jpg);
   background-size: cover;
   background-position: center;
 
@@ -75,41 +75,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-}
-
-.container-location {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  color: $color-text-primary;
-
-  & h1 {
-    color:$color-text-secondary;
-  }
-
-  & img {
-    border-radius: 10px;
-    border: solid $color-text-secondary;
-  }
-}
-
-.left-content {
-  flex: 1;
-  padding-right: 20px;
-  text-align: justify;
-}
-
-.right-content {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.right-content img {
-  max-width: 100%;
-  height: auto;
 }
 
 #location-titles .ribbon {

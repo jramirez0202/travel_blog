@@ -95,25 +95,6 @@
   .grid-container.grid-item {
     height: 10% !important;
   }
-  .container-location {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 0 auto;
-    padding: 10px;
-  }
-  .left-content,
-  .right-content {
-    flex: 1;
-  }
-  .left-content {
-    padding-bottom: 20px;
-    text-align: justify;
-  }
-  .right-content img {
-    max-width: 100%;
-    height: auto;
-  }
   #destinations,
   .text-container {
     display: none !important;
@@ -183,9 +164,6 @@
     padding: 0;
     margin: 0;
   }
-  .centered-list li {
-    margin-right: 15px;
-  }
 }
 @media only screen and (max-width: 991px) {
   #aboutMe {
@@ -250,6 +228,21 @@
     transform: translate(-50%, -50%);
   }
 }
+@media screen and (max-width: 673px) {
+  .grid-container {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto !important;
+  }
+  .grid-container .grid-item:nth-child(1) {
+    order: 2;
+  }
+  .grid-container .grid-item:nth-child(1) .content h2 {
+    margin: 10px;
+  }
+  .grid-container .grid-item__1:nth-child(2) {
+    order: 1;
+  }
+}
 /* *********** GLOBAL ************** */
 * {
   box-sizing: border-box;
@@ -277,6 +270,7 @@ body {
 .main-logo {
   display: flex;
   height: 50px;
+  margin-top: 30px;
 }
 
 .navbar-centered {
@@ -323,7 +317,7 @@ body {
 }
 .container-footer .first-section .footer-box {
   flex: 1;
-  margin: 25px;
+  margin-block: 20px;
 }
 .container-footer .first-section .footer-box h2 {
   color: #FDFFFC;
@@ -636,6 +630,12 @@ body {
 .grid-container .grid-item__1 .content {
   text-align: center;
 }
+.grid-container .grid-item__1 .content h2 {
+  margin-block: 10px;
+}
+.grid-container .grid-item__1 .content p {
+  margin-inline: 10px;
+}
 .grid-container .grid-item img {
   max-width: 100%;
   height: auto;
@@ -647,7 +647,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../../assets/images/backgroundImages/arches-park-utah.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../assets/images/backgroundImages/arches-park-utah.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -706,39 +706,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.container-location {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  color: #020100;
-}
-.container-location h1 {
-  color: #d69191;
-}
-.container-location img {
-  border-radius: 10px;
-  border: solid #d69191;
-}
-
-.left-content {
-  flex: 1;
-  padding-right: 20px;
-  text-align: justify;
-}
-
-.right-content {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.right-content img {
-  max-width: 100%;
-  height: auto;
 }
 
 #location-titles .ribbon {
